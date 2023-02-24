@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Shantell+Sans:wght@500&display=swap');
+
+*{
+    font-family: Poppins;
+}
+
+body {
+    box-sizing: border-box;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,0.5564600840336135) 0%, rgba(148,187,233,0.6208858543417367) 100%);
+}
+
+.title {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    color: #fff;
+}
+.randomCats {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: auto; 
+    gap: 10px 10px; 
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+.generateCats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputButton{
+    border-radius: 15px;
+    padding: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.aleatorioImg{
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}

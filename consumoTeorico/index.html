@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gatitos Aleatorios</title>
+</head>
+<body>
+    <section class="title">
+        <h1>API Cats</h1>  
+    </section>
+    <hr>
+    <section class="description">
+        <p>Esta página web te permite generar gatitos aleatorios y guardarlos en favoritos.</p>
+    </section>
+
+    <h1>Gatitos Aleatorios</h1>
+
+    <span id="error"></span>
+
+    <section class="randomCats">
+
+        <article>
+            <img id="img1" alt="Foto gatito aleatorio" class="aleatorioImg">
+            <button id="btn1" onclick="saveFavoriteMichis()">Guardar gato en favoritos</button>
+        </article>
+        <article>
+            <img id="img2" alt="Foto gatito aleatorio" class="aleatorioImg">
+            <button id="btn1" onclick="saveFavoriteMichis()">Guardar gato en favoritos</button>
+        </article>
+    </section>
+    <section class="generateCats">
+        <input type="submit" value="Generar" class="inputButton">
+    </section>
+ 
+
+    <section id="favorites">
+        <h1>Favoritos</h1>
+
+        <article>
+            <img id="img3" alt="Foto gatito aleatorio" class="aleatorioImg">
+            <button>Sacar gato de favoritos</button>
+        </article>
+    </section>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
