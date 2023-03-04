@@ -46,6 +46,7 @@ hr {
     margin-bottom: 15px;
     margin-top: 15px;
     cursor: pointer;
+    border: none;
 }
 
 .aleatorioImg{
@@ -55,3 +56,22 @@ hr {
     object-fit: cover;
     margin-bottom: 15px;
 }
+
+.buttonCat {
+    width: 200px;
+    padding: 8px;
+}
+
+@media (max-width: 768px) {
+    .randomCats {
+        grid-template-columns: 1fr 1fr; 
+        transition: all 0.2s ease-in;
+    }
+}
+@media (max-width: 400px) {
+    .randomCats {
+        grid-template-columns: 1fr; 
+        transition: all 0.2s ease-in;
+    }
+}
+    
